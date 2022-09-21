@@ -11,6 +11,17 @@
 		D67724A628D22D56006EFC35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67724A528D22D56006EFC35 /* ContentView.swift */; };
 		D67724A828D22D57006EFC35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D67724A728D22D57006EFC35 /* Assets.xcassets */; };
 		D67724AB28D22D57006EFC35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D67724AA28D22D57006EFC35 /* Preview Assets.xcassets */; };
+		D67724B228D35F82006EFC35 /* saveDataInDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67724B128D35F82006EFC35 /* saveDataInDB.swift */; };
+		D67724B428D3934D006EFC35 /* TabAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67724B328D3934D006EFC35 /* TabAView.swift */; };
+		D67724B628D39429006EFC35 /* TabBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67724B528D39429006EFC35 /* TabBView.swift */; };
+		D68D698628D5DFAE0035A94D /* QRCodeMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68D698528D5DFAE0035A94D /* QRCodeMaker.swift */; };
+		D68D698828D5E5180035A94D /* ScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68D698728D5E5180035A94D /* ScannerViewModel.swift */; };
+		D68D698A28D5E54B0035A94D /* QrCodeCameraDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68D698928D5E54B0035A94D /* QrCodeCameraDelegate.swift */; };
+		D68D698C28D5E5730035A94D /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68D698B28D5E5730035A94D /* CameraPreview.swift */; };
+		D68D698E28D5E5B80035A94D /* QrCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68D698D28D5E5B80035A94D /* QrCodeScannerView.swift */; };
+		D68D699028D5E6E20035A94D /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68D698F28D5E6E20035A94D /* SecondView.swift */; };
+		D68D699328D63DDF0035A94D /* DBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68D699228D63DDF0035A94D /* DBService.swift */; };
+		D68D699528D63EAB0035A94D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68D699428D63EAB0035A94D /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,18 @@
 		D67724A528D22D56006EFC35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D67724A728D22D57006EFC35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D67724AA28D22D57006EFC35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D67724B128D35F82006EFC35 /* saveDataInDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saveDataInDB.swift; sourceTree = "<group>"; };
+		D67724B328D3934D006EFC35 /* TabAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabAView.swift; sourceTree = "<group>"; };
+		D67724B528D39429006EFC35 /* TabBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBView.swift; sourceTree = "<group>"; };
+		D68D698528D5DFAE0035A94D /* QRCodeMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeMaker.swift; sourceTree = "<group>"; };
+		D68D698728D5E5180035A94D /* ScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewModel.swift; sourceTree = "<group>"; };
+		D68D698928D5E54B0035A94D /* QrCodeCameraDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeCameraDelegate.swift; sourceTree = "<group>"; };
+		D68D698B28D5E5730035A94D /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		D68D698D28D5E5B80035A94D /* QrCodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeScannerView.swift; sourceTree = "<group>"; };
+		D68D698F28D5E6E20035A94D /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		D68D699128D5E9700035A94D /* qrdb-v0-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "qrdb-v0-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D68D699228D63DDF0035A94D /* DBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBService.swift; sourceTree = "<group>"; };
+		D68D699428D63EAB0035A94D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +74,22 @@
 		D67724A228D22D56006EFC35 /* qrdb_v0 */ = {
 			isa = PBXGroup;
 			children = (
+				D68D699128D5E9700035A94D /* qrdb-v0-Info.plist */,
 				D67724A328D22D56006EFC35 /* qrdb_v0App.swift */,
 				D67724A528D22D56006EFC35 /* ContentView.swift */,
+				D68D699228D63DDF0035A94D /* DBService.swift */,
+				D68D699428D63EAB0035A94D /* User.swift */,
 				D67724A728D22D57006EFC35 /* Assets.xcassets */,
 				D67724A928D22D57006EFC35 /* Preview Content */,
+				D67724B128D35F82006EFC35 /* saveDataInDB.swift */,
+				D67724B328D3934D006EFC35 /* TabAView.swift */,
+				D67724B528D39429006EFC35 /* TabBView.swift */,
+				D68D698F28D5E6E20035A94D /* SecondView.swift */,
+				D68D698728D5E5180035A94D /* ScannerViewModel.swift */,
+				D68D698528D5DFAE0035A94D /* QRCodeMaker.swift */,
+				D68D698928D5E54B0035A94D /* QrCodeCameraDelegate.swift */,
+				D68D698B28D5E5730035A94D /* CameraPreview.swift */,
+				D68D698D28D5E5B80035A94D /* QrCodeScannerView.swift */,
 			);
 			path = qrdb_v0;
 			sourceTree = "<group>";
@@ -137,8 +172,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D68D699528D63EAB0035A94D /* User.swift in Sources */,
+				D68D698828D5E5180035A94D /* ScannerViewModel.swift in Sources */,
+				D67724B628D39429006EFC35 /* TabBView.swift in Sources */,
+				D67724B428D3934D006EFC35 /* TabAView.swift in Sources */,
+				D68D698C28D5E5730035A94D /* CameraPreview.swift in Sources */,
+				D67724B228D35F82006EFC35 /* saveDataInDB.swift in Sources */,
+				D68D699328D63DDF0035A94D /* DBService.swift in Sources */,
+				D68D699028D5E6E20035A94D /* SecondView.swift in Sources */,
 				D67724A628D22D56006EFC35 /* ContentView.swift in Sources */,
+				D68D698628D5DFAE0035A94D /* QRCodeMaker.swift in Sources */,
 				D67724A428D22D56006EFC35 /* qrdb_v0App.swift in Sources */,
+				D68D698A28D5E54B0035A94D /* QrCodeCameraDelegate.swift in Sources */,
+				D68D698E28D5E5B80035A94D /* QrCodeScannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,12 +310,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"qrdb_v0/Preview Content\"";
 				DEVELOPMENT_TEAM = H2BRC2349A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "qrdb-v0-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "QR住所";
+				INFOPLIST_KEY_NSCameraUsageDescription = NSCameraUsageDescription;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,6 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "H2BRC2349A.qrdb-v0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -293,12 +344,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"qrdb_v0/Preview Content\"";
 				DEVELOPMENT_TEAM = H2BRC2349A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "qrdb-v0-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "QR住所";
+				INFOPLIST_KEY_NSCameraUsageDescription = NSCameraUsageDescription;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,6 +364,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "H2BRC2349A.qrdb-v0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
